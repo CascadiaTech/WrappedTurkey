@@ -6,13 +6,17 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  width: 100vw;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 100vw;
   align-items: center;
-  background-color: #e3ac82;
+  background-image: url('../assets/images/Turkey.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .mainpage {
   min-height: 100vh;

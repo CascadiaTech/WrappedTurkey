@@ -20,6 +20,7 @@ import {
   JsonRpcFetchFunc,
   Web3Provider,
 } from "@ethersproject/providers";
+//#e3ac82
 const Home: NextPage = () => {
   const { account, chainId, active } = useWeb3React();
   const showConnectAWallet = Boolean(!account);
@@ -83,12 +84,12 @@ const Home: NextPage = () => {
         <div className={""}>
           <p
             style={{ fontFamily: "Cookie-Regular" }}
-            className="mt-12 text-3xl sm:text-4xl text-center text-gray-100 md:text-4xl lg:text-6xl"
+            className="mt-28 text-3xl sm:text-4xl text-center text-gray-100 md:text-4xl lg:text-6xl"
           >
             Wrapped Turkey
           </p>
             <div className={"mx-10 flex flex col justify-center"}>
-              <Image width={650} height={650} src={turkey}></Image>
+        
             </div>
 
             <p className={"my-12"}></p>
@@ -152,23 +153,6 @@ const Home: NextPage = () => {
                 </div>
               </div>
 
-              <div className={"flex flex col object-left justify-center my-12"}>
-                <div
-                  style={{ fontFamily: "Inter-Medium-500" }}
-                  className="text-white bg-gradient-to-r from-red-900 to-red-800 hover:from-red-700 hover:to-red-800 focus:ring-4
-              focus:outline-none focus:ring-gray-300 rounded-lg text-xl px-3 py-3 text-center mr-2 mb-2 w-28 md:w-52 lg:w-64"
-                >
-                  Open DAO
-                </div>
-                <div
-                  style={{ fontFamily: "Inter-Medium-500" }}
-                  className="text-white bg-gradient-to-r from-red-900 to-red-800 hover:from-red-700 hover:to-red-800 focus:ring-4
-              focus:outline-none focus:ring-gray-300 rounded-lg text-xl px-3 py-3 text-center mr-2 mb-2 w-28 md:w-52 lg:w-64"
-                >
-                  {" "}
-                  Vote
-                </div>
-              </div>
 
           <p className={"my-4"}></p>
 
@@ -187,17 +171,6 @@ const Home: NextPage = () => {
                         "flex flex-col content-center text-center justify-center"
                       }
                     >
-                      <h5
-                        style={{
-                          fontFamily: "Inter-Medium-500",
-                          color: "#616d7e",
-                        }}
-                        className="text-center my-6 text-2xl sm:text-2xl md:text-3xl mx-6 dark:text-white"
-                      >
-                        Purchase Marsereum here to become a member <br /> start
-                        propsing and voting on certain matters within <br />
-                        The Marsereum Decentralized Autonomous Organization
-                      </h5>
                       <div className="Uniswap mx-auto px-6 sm:px-6 md:px-12 lg:px-24">
                         <SwapWidget
                           theme={darkTheme}
