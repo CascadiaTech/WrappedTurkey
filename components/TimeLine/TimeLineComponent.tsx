@@ -8,7 +8,7 @@ export default function TimeLineComponent() {
     return (
 
 <div className="container bg-transparent mx-auto w-full h-full rounded-xl">
-    <h1 className={'justify-center text-center mx-auto text-3xl text-bold text-black'}>RoadMap</h1>
+    <h1 style={{ fontFamily: "Cookie-Regular" }}  className={'justify-center text-center mx-auto text-5xl text-bold text-black'}>RoadMap</h1>
   <div className="relative wrap overflow-hidden p-10 h-full">
     <div className="border-2-2 absolute border-opacity-0 border-gray-700 h-full border"></div>
 

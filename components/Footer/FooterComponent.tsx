@@ -64,7 +64,7 @@ export default function FooterComponent() {
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
                   <a href="/" className="hover:underline">
-                    Marsereum
+                    WrappedTurkey
                   </a>
                 </li>
                 <li>
@@ -111,7 +111,7 @@ export default function FooterComponent() {
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022{" "}
             <a href="/" className="hover:underline">
-              Marsereum
+              Wrapped Turkey
             </a>
             . All Rights Reserved.
           </span>
@@ -164,7 +164,7 @@ export default function FooterComponent() {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="sr-only">GitHub account</span>
+              <span className="sr-only"></span>
             </a>
           </div>
         </div>

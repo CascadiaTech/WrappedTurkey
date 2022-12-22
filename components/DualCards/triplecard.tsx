@@ -13,7 +13,7 @@ export default function TripleCardComponent() {
   return (
     <div>
       <div className="flex space-y-8 my-20 js-show-on-scroll text-center justify-center flex-col ... ">
-      <h1 className={'justify-center text-center mx-auto text-3xl text-bold text-black'}>Tokenomics</h1>
+      <h1 style={{ fontFamily: "Cookie-Regular" }}  className={'justify-center text-center mx-auto text-5xl text-bold text-black'}>Tokenomics</h1>
         <div className="flex justify-between flex-col md:flex-row ...">
          
 <div className="max-w-sm p-6 px-14 bg-creamorange border mx-5 text-center  border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
