@@ -75,7 +75,7 @@ const Home: NextPage = () => {
   };
 
   return (
-    <div className="">
+    <div>
       <main className={styles.main}>
         <header>
           {" "}
@@ -123,7 +123,7 @@ const Home: NextPage = () => {
           <TripleCardComponent></TripleCardComponent>
 
           <TimeLineComponent></TimeLineComponent>
-          <div className={"text-center flex flex-col mx-auto justify-center"}>
+          <div className={"text-center flex flex-col max-w-3/4 items-center content-center justify-center"}>
             <div className="w-fit py-10 px-10 h-fit table-auto bg-transparent rounded-xl">
               <div
                 className={
@@ -134,91 +134,91 @@ const Home: NextPage = () => {
                   Milestones
                 </p>
               </div>
-              <div className={"py-10"}>
-                <div className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+              <div className={"py-5"}>
+                <div className="flex flex-row text-center rounded-3xl border-2 text-3xl md:text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     Starting:
                   </p>
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     15-day lock
                   </p>
                 </div>
                 <p className={"my-5"}></p>
-                <div className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                <div className="flex flex-row text-center rounded-3xl border-2 text-3xl md:text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     30k:
                   </p>
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     30-day lock + BuyBack and GiveAway!
                   </p>
                 </div>
                 <p className={"my-5"}></p>
-                <div className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                <div className="flex flex-row text-center rounded-3xl border-2 text-3xl md:text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     60k:
                   </p>
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     60-day lock
                   </p>
                 </div>
                 <p className={"my-5"}></p>
-                <div className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                <div className="flex flex-row text-center rounded-3xl border-2 text-3xl md:text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     120k:
                   </p>
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     120-day lock
                   </p>
                 </div>
                 <p className={"my-5"}></p>
-                <div className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                <div className="flex flex-row text-center rounded-3xl border-2 text-3xl md:text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     180k:
                   </p>
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     180-day lock
                   </p>
                 </div>
                 <p className={"my-5"}></p>
-                <div className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                <div className="flex flex-row text-center rounded-3xl border-2 text-3xl md:text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     360k:
                   </p>
                   <p
-                    className={"mx-10"}
+                    className={"mx-8"}
                     style={{ fontFamily: "Cookie-Regular" }}
                   >
                     LifeTime lock
@@ -242,7 +242,7 @@ const Home: NextPage = () => {
                         "flex flex-col content-center text-center justify-center"
                       }
                     >
-                      <div className="Uniswap mx-auto px-6 sm:px-6 md:px-12 lg:px-24">
+                      <div className="Uniswap w-full content-center items-center justify-center max-w-screen mb-4 mx-auto px-6 sm:px-6 md:px-12 lg:px-24">
                         <SwapWidget
                           theme={darkTheme}
                           width={"100%"}
@@ -265,10 +265,7 @@ const Home: NextPage = () => {
                     >
                       <p
                         className="text-center text-2xl sm:text-2xl md:text-3xl"
-                        style={{
-                          fontFamily: "Inter-Medium-500",
-                          color: "#000000",
-                        }}
+                        style={{ fontFamily: "Cookie-Regular" }} 
                       >
                         Please connect wallet to purchase
                       </p>
@@ -276,6 +273,20 @@ const Home: NextPage = () => {
                   </div>
                 </>
               )}
+              <div className="flex flex-col text-center justify-center content-center items-center">
+              <p style={{ fontFamily: "Cookie-Regular" }} className={"text-5xl"}>
+                  How To Cook a Turkey
+                </p>
+              <video
+            className="mb-5 mt-5"
+            playsInline
+            controls
+            muted
+          >
+            <source src="./turkey.mp4" type="video/mp4" /> Your browser
+            does not support the video tag, update your browser
+          </video>
+              </div>
             </div>
           </div>
         </div>

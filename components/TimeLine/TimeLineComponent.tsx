@@ -3,11 +3,9 @@ import React, { useEffect, useState } from "react";
 import { animated } from "react-spring";
 import { useSpring } from "react-spring/web";
 import ScrollpositionAnimation from "../../hooks/OnScroll";
+/*
 
-export default function TimeLineComponent() {
-    return (
-
-<div className="container bg-transparent mx-auto w-full h-full rounded-xl">
+<div className="justify-center container bg-transparent mx-auto w-full h-full rounded-xl">
     <h1 style={{ fontFamily: "Cookie-Regular" }}  className={'justify-center text-center mx-auto text-5xl text-bold text-black'}>RoadMap</h1>
   <div className="relative wrap overflow-hidden p-10 h-full">
     <div className="border-2-2 absolute border-opacity-0 border-gray-700 h-full border"></div>
@@ -57,5 +55,60 @@ export default function TimeLineComponent() {
     </div>
   </div>
 </div> 
+*/
+export default function TimeLineComponent() {
+    return (
+<div className="flex flex-col justify-center items-center content-center w-full mx-auto px-10">
+<h1 style={{ fontFamily: "Cookie-Regular" }}  className={'justify-center text-center mx-auto text-5xl text-bold text-white'}>Roadmap</h1>
+<ol className="items-center sm:flex">
+    <li className="relative mb-6 sm:mb-0">
+        <div className="flex items-center">
+            <div className="flex z-10 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+            </div>
+            <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+        </div>
+        <div className="mt-3 sm:pr-8">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Prepping Instruction 1: </h3>
+            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"></time>
+            <p className="text-base font-normal text-gray-800 dark:text-gray-400">Compliment the chef (Shill for Organic growth)
+100 Eaters (holders)
+Get stuffed (buy and hold the floor) 
+Menu (Website v1)
+Hygiene and Safety (SAFU)</p>
+        </div>
+    </li>
+    <li className="relative mb-6 sm:mb-0">
+        <div className="flex items-center">
+            <div className="flex z-10 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+            </div>
+            <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+        </div>
+        <div className="mt-3 sm:pr-8">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Cooking Instruction 2:</h3>
+            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"></time>
+            <p className="text-base font-normal text-gray-800 dark:text-gray-400">Turn the heat up: 
+Call the waiters and waitresses (Callers)
+Prep the trimmings (extend lock at certain MC)</p>
+        </div>
+    </li>
+    <li className="relative mb-6 sm:mb-0">
+        <div className="flex items-center">
+            <div className="flex z-10 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+                <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+            </div>
+            <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+        </div>
+        <div className="mt-3 sm:pr-8">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Type of Gravy (utility Reveal)</h3>
+            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"></time>
+            <p className="text-base font-normal text-gray-800 dark:text-gray-400">Plating up Instruction 3: 
+Fill your plate (NFT Development)</p>
+        </div>
+    </li>
+</ol>
+</div>
+
     )
 }
