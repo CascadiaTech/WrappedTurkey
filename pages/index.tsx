@@ -89,51 +89,66 @@ const Home: NextPage = () => {
           >
             Wrapped Turkey
           </p>
-            <div className={"mx-10 flex flex col justify-center"}>
-        
-            </div>
 
-            <p className={"my-12"}></p>
-            <div className={'flex flex-col mx-auto justify-center'}>
-              <table className="w-fit py-10 px-10 h-fit table-auto bg-gray-500 rounded-xl">
-                <div className={'border-bottom text-center justify-center mx-auto border-white hover:border-bottom hover:border-red-500 duration-700 transition-all'}>
-                  <tr>
-                    <th className={'text-2xl text-center justify-center'}>Milestones</th>
-                  </tr>
+            <p className={"my-80"}></p>
+            <div className={'text-center flex flex-col mx-auto justify-center'}>
+              
+              <div className="w-fit py-10 px-10 h-fit table-auto bg-transparent rounded-xl">
+                <div className={'border-bottom text-center text-5xl justify-center mx-auto border-white hover:border-bottom hover:border-red-500 duration-700 transition-all'}>
+                  <p
+                    style={{ fontFamily: "Cookie-Regular" }} className={''}>Milestones</p>
                 </div>
-                <tbody className={'py-10'}>
-                  <tr className="border-2 border-white py-10 px-10 text-xl hover:border-red-500 duration-700 transition-all">
-                    <td>Starting:</td>
-                    <td>15-day lock</td>
-                  </tr>
+                <div className={'py-10'}>
+                  <div
+                    className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >Starting:</p>
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >15-day lock</p>
+                  </div>
                   <p className={'my-5'}></p>
-                  <tr className={'border-2 border-white py-10 px-10 text-xl hover:border-red-500 duration-700 transition-all'}>
-                    <td>30k</td>
-                    <td>30 day lock + BuyBack and Giveaway</td>
-                  </tr>
+                  <div
+                    className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >30k:</p>
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >30-day lock + BuyBack and GiveAway!</p>
+                  </div>
                   <p className={'my-5'}></p>
-                  <tr className={'border-2 border-white py-10 px-10 text-xl hover:border-red-500 duration-700 transition-all'}>
-                    <td>60k:</td>
-                    <td>60-day lock</td>
-                  </tr>
+                  <div
+                    className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >60k:</p>
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >60-day lock</p>
+                  </div>
                   <p className={'my-5'}></p>
-                  <tr className={'border-2 border-white py-10 px-10 text-xl hover:border-red-500 duration-700 transition-all'}>
-                    <td>120k:</td>
-                    <td>120-day lock</td>
-                  </tr>
+                  <div
+                    className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >120k:</p>
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >120-day lock</p>
+                  </div>
                   <p className={'my-5'}></p>
-                  <tr className={'border-2 border-white py-10 px-10 text-xl hover:border-red-500 duration-700 transition-all'}>
-                    <td>180k:</td>
-                    <td>1 year lock</td>
-                  </tr>
+                  <div
+                    className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >180k:</p>
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >180-day lock</p>
+                  </div>
                   <p className={'my-5'}></p>
-                  <tr className={'border-2 border-white py-10 px-10 text-xl hover:border-red-500 duration-700 transition-all'}>
-                    <td>360k:</td>
-                    <td>LifeTime lock</td>
-                  </tr>
+                  <div
+                    className="flex flex-row text-center rounded-3xl border-2 text-4xl border-creamorange px-10 hover:border-red-500 hover:bg-creamorange duration-700 transition-all">
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >360k:</p>
+                    <p className={'mx-10'}
+                    style={{ fontFamily: "Cookie-Regular" }} >LifeTime lock</p>
+                  </div>
                   <p className={'my-5'}></p>
-                </tbody>
-              </table>
+                </div>
+              </div>
               </div>
 
               <div className={"flex flex col object-left justify-center my-12"}>
