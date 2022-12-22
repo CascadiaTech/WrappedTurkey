@@ -20,6 +20,7 @@ import {
   JsonRpcFetchFunc,
   Web3Provider,
 } from "@ethersproject/providers";
+import TripleCardComponent from "../components/DualCards/triplecard";
 //#e3ac82
 const Home: NextPage = () => {
   const { account, chainId, active } = useWeb3React();
@@ -155,6 +156,7 @@ const Home: NextPage = () => {
 
 
           <p className={"my-4"}></p>
+          <TripleCardComponent></TripleCardComponent>
 
           <TimeLineComponent></TimeLineComponent>
           <div

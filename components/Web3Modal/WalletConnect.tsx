@@ -7,6 +7,9 @@ import { WalletLinkConnector } from "@web3-react/walletlink-connector";
 import { Provider, Web3Provider } from "@ethersproject/providers";
 import { connectors } from "./connectors";
 import { Modal } from "flowbite-react";
+import connectbutton from '../../assets/images/connectbutton.png'
+import disconnectbutton from '../../assets/images/disconnectbutton.png'
+import Image from "next/image";
 export const ConnectWallet = () => {
   const [visible, setVisible] = useState(false);
 
@@ -72,22 +75,23 @@ export const ConnectWallet = () => {
   return (
     <div>
       {active ? (
-        <button
-          type="button"
+        <Image
+          width={190}
+          height={80}
+          src={disconnectbutton}
           onClick={onActiveClick}
-          className="text-white bg-gradient-to-r from-red-700 to-red-900 hover:from-red-500 hover:to-red-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-        >
-          Disconnect Wallet
-        </button>
+          className="focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+        
+        />
       ) : (
         <div>
-          <button
-            type="button"
+          <Image
+            src={connectbutton}
             onClick={OnClick}
-            className="text-white bg-gradient-to-r from-red-800 to-red-900 hover:from-red-500 hover:to-red-700 focus:ring-4 focus:ring-blue-300 font-medium mt-2 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-          >
-            Connect Wallet
-          </button>
+            width={190}
+            height={80}
+            className="hover:scale-105 transition-all duration-500 mt-2 rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
+          />
           <Modal show={visible} size="md" popup={true} onClose={OnOffClick}>
             <Modal.Header />
             <Modal.Body>
