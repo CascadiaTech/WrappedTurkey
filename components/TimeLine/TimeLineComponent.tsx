@@ -72,9 +72,9 @@ export default function TimeLineComponent() {
             <h3 style={{ fontFamily: "Cookie-Regular" }}  className="text-3xl font-semibold text-gray-900 dark:text-white">Prepping Instruction 1: </h3>
 
             <p className="text-base font-normal w-96 text-gray-800 dark:text-gray-400">Compliment the chef (Shill for Organic growth)
-100 Eaters (holders)
-Get stuffed (buy and hold the floor) 
-Menu (Website v1)
+100 Eaters (holders),
+Get stuffed (buy and hold the floor), 
+Menu (Website v1),
 Hygiene and Safety (SAFU)</p>
         </div>
     </li>
@@ -89,7 +89,7 @@ Hygiene and Safety (SAFU)</p>
             <h3 style={{ fontFamily: "Cookie-Regular" }}  className="text-3xl font-semibold text-gray-900 dark:text-white">Cooking Instruction 2:</h3>
 
             <p className="text-base font-normal mb-2 text-gray-800 dark:text-gray-400">Turn the heat up: 
-Call the waiters and waitresses (Callers)
+Call the waiters and waitresses (Callers),
 Prep the trimmings (extend lock at certain MC)</p>
         </div>
     </li>
@@ -101,9 +101,9 @@ Prep the trimmings (extend lock at certain MC)</p>
             <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
         </div>
         <div className="mt-3 sm:pr-8">
-            <h3 style={{ fontFamily: "Cookie-Regular" }}  className="text-lg font-semibold text-3xl text-gray-900 dark:text-white">Instruction 4: Serve Up!</h3>
+            <h3 style={{ fontFamily: "Cookie-Regular" }}  className="text-lg font-semibold text-3xl text-gray-900 dark:text-white">Instruction 3: Serve Up!</h3>
 
-            <p className="text-base font-normal text-gray-800 dark:text-gray-400">Type of Gravy (utility Reveal)
+            <p className="text-base font-normal text-gray-800 dark:text-gray-400">Type of Gravy (utility Reveal),
 Fill your plate (NFT Development)</p>
         </div>
     </li>

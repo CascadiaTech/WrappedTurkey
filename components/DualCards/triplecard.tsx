@@ -13,7 +13,22 @@ export default function TripleCardComponent() {
   return (
     <div>
       <div className="flex space-y-5 my-20 js-show-on-scroll mx-5 text-center justify-center flex-col ... ">
-      <h1 style={{ fontFamily: "Cookie-Regular" }}  className={'justify-center text-center mx-auto text-5xl text-bold text-black'}>Cookenomics</h1>
+      <h1
+          style={{ fontFamily: "Cookie-Regular" }}
+          className={
+            "justify-center text-center mx-auto text-5xl text-bold text-black"
+          }
+        >
+          Cookenomics <br />
+        </h1>
+        <h1
+          style={{ fontFamily: "Cookie-Regular" }}
+          className={
+            "justify-center text-center mx-auto text-4xl text-bold text-black"
+          }
+        >
+          Taxes 5/5 <br /> Total Supply: 100,000,000
+        </h1>
         <div className="flex justify-between items-center content-center flex-col md:flex-row ...">
          
 <div className="mb-5 max-w-sm p-6 px-14 bg-creamorange border mx-5 text-center  border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">

@@ -103,7 +103,8 @@ const Home: NextPage = () => {
           <div className={"flex flex col object-left justify-center my-12"}>
             
             <div
-              style={{ fontFamily: "Cookie-Regular" }} 
+              style={{ fontFamily: "Cookie-Regular" }}
+              onClick={() => window.open("https://etherscan.io/address/0x90112a879c9ecf233c9c8152f6a563b60244102d")} 
               className="text-white bg-gradient-to-r bg-creamorange hover:from-red-700 hover:to-red-800 focus:ring-4
               focus:outline-none focus:ring-gray-300 rounded-lg text-2xl px-3 py-3 text-center mr-2 mb-2 w-28 md:w-52 lg:w-64"
             >
@@ -111,11 +112,12 @@ const Home: NextPage = () => {
             </div>
             <div
               style={{ fontFamily: "Cookie-Regular" }} 
+              onClick={() => window.open("https://www.dextools.io/app/en/ether/pair-explorer/0x043c187630188bfb37150e5eb57cf27615ccb9d0")}
               className="text-white bg-gradient-to-r bg-creamorange hover:from-red-700 hover:to-red-800 focus:ring-4
               focus:outline-none focus:ring-gray-300 rounded-lg text-2xl px-3 py-3 text-center mr-2 mb-2 w-28 md:w-52 lg:w-64"
             >
               {" "}
-              Chat
+              Chart
             </div>
           </div>
 
@@ -251,6 +253,7 @@ const Home: NextPage = () => {
                           defaultOutputTokenAddress={Runeaddress}
                         />
                       </div>
+                      <p>Token address: 0x90112A879c9ECF233c9C8152F6A563b60244102D</p>
                     </div>
                   </div>
                 </>
@@ -278,7 +281,7 @@ const Home: NextPage = () => {
                   How To Cook a Turkey
                 </p>
               <video
-            className="max-w-screen mb-5 mt-5"
+            className="max-w-screen mx-auto mb-5 mt-5"
             playsInline
             controls
             muted

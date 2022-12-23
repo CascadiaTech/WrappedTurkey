@@ -63,7 +63,7 @@ export default function FooterComponent() {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="/" className="hover:underline">
+                  <a href="https://t.co/PBRXCZezDc" className="hover:underline">
                     WrappedTurkey
                   </a>
                 </li>
@@ -92,7 +92,7 @@ export default function FooterComponent() {
                 </li>
                 <li>
                   <a
-                    href="https://app.uniswap.org/#/swap?outputCurrency=0xe0df31d06d72b2f5231489af0edc422b372f49f1"
+                    href="https://app.uniswap.org/#/swap?outputCurrency=0x90112A879c9ECF233c9C8152F6A563b60244102D"
                     className="hover:underline"
                   >
                     Uniswap
@@ -135,7 +135,7 @@ export default function FooterComponent() {
               <span className="sr-only"></span>
             </a>
             <a
-              href="https://twitter.com/marsereum"
+              href="https://twitter.com/Wrapped_Turkey"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -149,7 +149,7 @@ export default function FooterComponent() {
               <span className="sr-only">Twitter page</span>
             </a>
             <a
-              href="https://github.com/CascadiaTech/Marsereum"
+              href="https://github.com/CascadiaTech/WrappedTurkey"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
