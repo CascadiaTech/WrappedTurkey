@@ -8,9 +8,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 //import MarsereumLogo from "assets/images/Marsereum-Logo.png";
-import turkeylogo2 from "../../assets/images/turkeylogo2.png"
+//import turkeylogo2 from "../../assets/images/turkeylogo2.png"
 import { ConnectWallet } from "../Web3Modal/WalletConnect";
 import { Dropdown } from "flowbite-react";
+import turkeylogo4 from "../../assets/images/turkeylogo4.png";
 export default function HeaderComponent() {
   //    backgroundImage: `url(${backgroundimage})`,
 
@@ -22,15 +23,29 @@ export default function HeaderComponent() {
           <div className="md:order-2">
             <ConnectWallet></ConnectWallet>
           </div>
-          <div className="bg-gradient-to-r from-red-700 to-red-900 hover:from-red-500 hover:to-red-700 rounded-lg sm:visible md:hidden">
+          <div className="bg-gradient-to-r bg-creamorange border-white hover:from-red-500 hover:to-red-700 rounded-lg sm:visible md:hidden">
             <Dropdown color={"rgb(0.30,0.65,1.00)"} label="Navigation">
               <Dropdown.Header>
                 <span className="block text-sm">Navigation</span>
               </Dropdown.Header>
               <Dropdown.Item>
-                <a href="https://www.welcomebacktrump.net/">
+                <a href="https://t.me/WrappedTurkey_ERC20">
                   <p className="cursor-pointer block py-2 pr-4 pl-3 text-black rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white">
-                    Website{" "}
+                    Telegram{" "}
+                  </p>
+                </a>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <a href="https://twitter.com/WrappedTurkey1">
+                  <p className="cursor-pointer block py-2 pr-4 pl-3 text-black rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white">
+                   Twitter{" "}
+                  </p>
+                </a>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <a href="https://link.medium.com/bSLh5ooiQvb">
+                  <p className="cursor-pointer block py-2 pr-4 pl-3 text-black rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white">
+                   Medium{" "}
                   </p>
                 </a>
               </Dropdown.Item>
@@ -45,7 +60,7 @@ export default function HeaderComponent() {
               <Image
                 alt="Your Company"
                 className=""
-                src={turkeylogo2}
+                src={turkeylogo4}
                 height={120}
                 width={120}
               />

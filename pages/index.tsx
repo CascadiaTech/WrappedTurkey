@@ -85,7 +85,7 @@ const Home: NextPage = () => {
         <div className={""}>
           <p
             style={{ fontFamily: "Cookie-Regular" }}
-            className="mt-32 text-5xl mb-10 sm:text-4xl text-center text-gray-100 md:text-4xl lg:text-6xl"
+            className="mt-32 text-5xl mb-10 sm:text-5xl text-center text-gray-100 md:text-4xl lg:text-6xl"
           >
             Wrapped Turkey
           </p>
@@ -278,7 +278,7 @@ const Home: NextPage = () => {
                   How To Cook a Turkey
                 </p>
               <video
-            className="mb-5 mt-5"
+            className="max-w-screen mb-5 mt-5"
             playsInline
             controls
             muted
