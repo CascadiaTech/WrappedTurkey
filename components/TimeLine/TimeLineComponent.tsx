@@ -59,7 +59,7 @@ import ScrollpositionAnimation from "../../hooks/OnScroll";
 export default function TimeLineComponent() {
     return (
 <div className="flex flex-col justify-center items-center content-center w-full mx-auto px-10">
-<h1 style={{ fontFamily: "Cookie-Regular" }}  className={'justify-center text-center mx-auto text-5xl text-bold text-white'}>Roadmap</h1>
+<h1 style={{ fontFamily: "Cookie-Regular" }}  className={'justify-center text-center mx-auto text-5xl text-bold text-white'}>Chef's Cook Map</h1>
 <ol className="items-center md:flex">
     <li className="relative mb-6 md:mb-0">
         <div className="flex items-center">
